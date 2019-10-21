@@ -3,9 +3,10 @@ git merge : to merge the new branch into master
 git checkout master : to go into master branch
 git checkout branch: to go into a new branch
 git add : add whatever changes to the files you have in the folder into local git respitory for commit
-git commit -m : commit a new changes
+git commit -m "What commits that you make" : commit a new changes
 git branch name of the new branch: create a new branch
 git branch -d name of the branch: delete the branch
 git checkout -b new: to create and check in a branch name new
 git remote add origin: to add a local git respitory to a remote git respitory
+git pull origin master: this is command to pull whatever changes in the new master branch on the remote respitory to your local git respitory
 
