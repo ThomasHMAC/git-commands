@@ -9,4 +9,4 @@ git branch -d name of the branch: delete the branch
 git checkout -b new: to create and check in a branch name new
 git remote add origin: to add a local git respitory to a remote git respitory
 git pull origin master: this is command to pull whatever changes in the new master branch on the remote respitory to your local git respitory
-
+git push origin master: this command to push whatever in your local respitory to your git remote respitory
