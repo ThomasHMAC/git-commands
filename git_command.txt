@@ -7,10 +7,17 @@ git commit -m "What commits that you make" : commit a new changes
 git branch name of the new branch: create a new branch
 git branch -d name of the branch: delete the branch
 git checkout -b new: to create and check in a branch name new
-git remote add origin: to add a local git respitory to a remote git respitory
+git remote add origin the URL of the local git respitory: to add a local git respitory to a remote git respitory
 git pull origin master: this is command to pull whatever changes in the new master branch on the remote respitory to your local git respitory
 <<<<<<< HEAD
 git checkout master: will allow you to swtich to master branch and see what was pull some the remote git respitory, then you can make changes
 =======
 >>>>>>> origin/master
 git push origin master: this command to push whatever in your local respitory to your git remote respitory
+
+to syn with a remote git respitory when you forked it to your local respitory.
+1. git remote add upstream the URL of remote git respitory
+2. git remote -v : check the status 
+3. gt fetch upstream : will create branch of local master into upstream/master
+4. git merge upstream/master: this will merge whatever changes in the upstream respitory to your local git respitory!
+5. Sometimes when you merge there are conflict since that git can not automically merge the files, hence you have to do this manually by git add . (add whatever changes you have make or has the upstream respitory make then git commit -m).
